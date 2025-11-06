@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suministros Dunker - Administración</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <img src="Logo Medicina.jpg" alt="Logo Medicina" class="header-logo">
+    </a>
+    <a href="index.html">
+      <h1>Suministros Dunker</h1>
+    </a>
+    <p>Panel de Administración</p>
+  </header>
+
+  <!-- Menú cargado desde JSON -->
+  <nav id="menu"></nav>
+
+  <main>
+    <section class="card formulario-menu">
+      <h2>Agregar nueva opción al menú</h2>
+      <form id="formMenu">
+        <label for="nombre">Nombre de la opción:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="enlace">Enlace (URL):</label>
+        <input type="text" id="enlace" placeholder="pagina.html" required>
+
+        <button type="submit">Agregar al menú</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Opciones agregadas por el usuario</h2>
+      <ul id="listaOpciones"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>2025 Suministros Dunker - Sammyr Dunker | Panel de administración</p>
+  </footer>
+
+  <script src="llamadomenu.js"></script>
+</body>
+</html>

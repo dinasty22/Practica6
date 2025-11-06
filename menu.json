@@ -1,0 +1,27 @@
+[
+  { "nombre": "Inicio", "enlace": "index.html" },
+  { 
+    "nombre": "Equipos Médicos", 
+    "enlace": "equipos.html",
+    "submenu": [
+      { "nombre": "Diagnóstico", "enlace": "equipos.html" },
+      { "nombre": "Monitoreo", "enlace": "equipos.html" }
+    ]
+  },
+  { 
+    "nombre": "Desechables", 
+    "enlace": "desechables.html",
+    "submenu": [
+      { "nombre": "Guantes", "enlace": "desechables.html" },
+      { "nombre": "Mascarillas", "enlace": "desechables.html" }
+    ]
+  },
+  { 
+    "nombre": "Fármacos", 
+    "enlace": "farmacos.html",
+    "submenu": [
+      { "nombre": "Antibióticos", "enlace": "farmacos.html" },
+      { "nombre": "Analgésicos", "enlace": "farmacos.html" }
+    ]
+  }
+]
